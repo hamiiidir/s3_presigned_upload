@@ -1,24 +1,18 @@
-# upload_to_arvan
+برای اجرای برنامه دستورات زیر را اجرا کنید:
+```
+git clone https://github.com/hamiiidir/s3_presigned_upload.git
+```
 
-## Project setup
+```
+cd s3_presigned_upload
+```
+
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+ابتدا درفایل App.vue مقادیر accessKeyId، secretAccessKey و bucket را تعیین کنید
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+````
+بعد از بالا آمدن صفحه کافی است که فایل رو داخل کادر بکشید و بعد نتیجه رو از داخل console دنبال کنید.
+متشکرم
