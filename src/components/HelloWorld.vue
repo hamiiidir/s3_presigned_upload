@@ -7,7 +7,7 @@
 
 <script setup>
   const msg = 'Hello Hamid'
-  const { S3Client } = require('@aws-sdk/client-s3');
+  const { S3Client, ListObjectsCommand } = require('@aws-sdk/client-s3');
 
   const s3 = new S3Client({
       region: 'default',
@@ -18,6 +18,22 @@
       },
   });
 
-  console.log('s3', s3)
+  const listObjects = async (bucket) => {
+      try {
+          const response = await s3.send(
+              new ListObjectsCommand({
+                  Bucket: bucket,
+              })
+          )
+          console.log('Success', response);
+      } catch (err) {
+          console.log('Error', err);
+      }
+  };
+
+  onMounted(() => {
+    listObjects('new-box')
+  })
+  
 </script>
 
