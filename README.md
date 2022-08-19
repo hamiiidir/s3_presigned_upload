@@ -1,18 +1,24 @@
-برای اجرای برنامه دستورات زیر را اجرا کنید:
-```
-git clone https://github.com/hamiiidir/s3_presigned_upload.git
-```
+# hello-world
 
-```
-cd s3_presigned_upload
-```
-
+## Project setup
 ```
 npm install
 ```
-ابتدا درفایل App.vue مقادیر accessKeyId، secretAccessKey و bucket را تعیین کنید
+
+### Compiles and hot-reloads for development
 ```
 npm run serve
-````
-بعد از بالا آمدن صفحه کافی است که فایل رو داخل کادر بکشید و بعد نتیجه رو از داخل console دنبال کنید.
-متشکرم
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

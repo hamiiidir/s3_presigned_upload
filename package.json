@@ -1,5 +1,5 @@
 {
-  "name": "upload_to_arvan",
+  "name": "hello-world",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,9 +8,6 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.131.0",
-    "@aws-sdk/s3-presigned-post": "^3.131.0",
-    "@aws-sdk/s3-request-presigner": "^3.131.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
@@ -20,11 +17,9 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "autoprefixer": "^10.4.7",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.6"
+    "@aws-sdk/client-s3": "^3.142.0"
   },
   "eslintConfig": {
     "root": true,
@@ -45,6 +40,5 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ],
-  "homepage": "https://hamiiidir.github.io/test_s3/"
+  ]
 }
