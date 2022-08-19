@@ -31,9 +31,9 @@
       }
   };
 
-  onMounted(() => {
+  // onMounted(() => {
     listObjects('new-box')
-  })
+  // })
   
 </script>
 
