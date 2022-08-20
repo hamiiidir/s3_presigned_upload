@@ -11,10 +11,10 @@
 
   const s3 = new S3Client({
       region: 'default',
-      endpoint: 'https://s3.ir-thr-at1.arvanstorage.com',
+      endpoint: '**********************',
       credentials: {
-          accessKeyId: '4be0aaa0-584c-4abf-8627-74efce3e6fc3',
-          secretAccessKey: '277a38c8f71e2b887380426eeca29aeb33be7ce6e43c4fc34dbf7fb1e2dada0d',
+          accessKeyId: '**********************',
+          secretAccessKey: '************************',
       },
   });
 
